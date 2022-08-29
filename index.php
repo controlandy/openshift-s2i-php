@@ -19,16 +19,9 @@
 
   <body>
     <?php echo "<h1> Hello World! </h1>"; ?>
-
     <?php
-
-$_SERVER['REMOTE_ADDR'];        //find the current user's IP address
-
-putenv("tmp=usr");              //set an value of environment variable
-
-echo $_SERVER['tmp'];
-
-?>
+    echo '¡Mi nombre de usuario es ' . $_ENV["PHP_HTTPD_CONF_FILE"] . '!';
+    ?>
     
     <?php phpinfo(); ?>
   </body>
