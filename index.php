@@ -19,10 +19,7 @@
 
   <body>
     <?php echo "<h1> Hello World! </h1>"; ?>
-    <?php
-      echo 'The username is: ' .$_ENV["USER"] . '!';
-    ?>
-    
+    <?php echo 'The username is: ' .$_ENV["USER"] . '!'; ?>
     <?php phpinfo(); ?>
   </body>
 
