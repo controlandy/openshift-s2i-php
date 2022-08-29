@@ -20,7 +20,7 @@
   <body>
     <?php echo "<h1> Hello World! </h1>"; ?>
     <?php
-    echo '¡Mi nombre de usuario es ' . $_ENV["CUSTOM_VAR"] . '!';
+    echo '¡variable CUSTOM_VAR: ' . $_ENV["CUSTOM_VAR"] . '!';
     ?>
     
     <?php phpinfo(); ?>
